@@ -1,0 +1,24 @@
+yaml:
+  str: 字符串不\n需要加双引号
+  specialStr: '字符串不\n需要加双引号'
+  num: 666
+  Dnum: 666.88
+  birth: 2021/05/19 12:35:00
+#  list:
+#    - one
+#    - two
+#    - three
+  list: [one,two]
+#  set: [1,2,3,1]
+  set:
+    - 1
+    - 2
+    - 3
+    - 1
+  map: {key1: value1,key2: value2}
+  user:
+    - name: sly1
+      salary: 10.01
+    - name: sly2
+      salary: 20.02
+

@@ -1,4 +1,4 @@
-package cn.springboot.study01;
+package cn.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,8 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * springboot 的启动类
  */
 @SpringBootApplication
-public class ConfigSpringApplication {
+public class YamlSpringApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ConfigSpringApplication.class,args);
+        SpringApplication.run(YamlSpringApplication.class,args);
     }
 }
