@@ -22,3 +22,11 @@ yaml:
     - name: sly2
       salary: 20.02
 
+mogno:
+  pool-size: 100
+spring:
+  data:
+    mongodb:
+      host: mongodb://localhost/test
+server:
+  port: 18080

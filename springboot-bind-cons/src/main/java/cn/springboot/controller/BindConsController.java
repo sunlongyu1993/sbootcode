@@ -13,13 +13,14 @@ import org.springframework.web.bind.annotation.RestController;
  *
  */
 @RestController
-//@EnableConfigurationProperties(AcmeProperties.class)//启用的注解
-public class BindPropController {
+@EnableConfigurationProperties(AcmeProperties.class)
+public class BindConsController {
     @Autowired
     private AcmeProperties acmeProperties;
 
     @GetMapping("test")
     public AcmeProperties test(){
+
         return acmeProperties;
     }
 }
