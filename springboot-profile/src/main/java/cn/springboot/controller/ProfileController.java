@@ -1,7 +1,6 @@
 package cn.springboot.controller;
 
 import cn.springboot.model.AcmeProperties;
-import cn.springboot.model.AnotherComponent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,14 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
  *
  */
 @RestController
-@EnableConfigurationProperties(AcmeProperties.class)
-public class BindConsController {
+public class ProfileController {
     @Autowired
-    private AnotherComponent anotherComponent;
+    private AcmeProperties acmeProperties;
 
-    @RequestMapping("another")
-    public String another(){
-        System.out.println(anotherComponent);
-        return "anotherclass";
+    @GetMapping("profiletest")
+    public AcmeProperties test(){
+        return acmeProperties;
     }
 }

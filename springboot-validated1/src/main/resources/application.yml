@@ -1,0 +1,17 @@
+acme:
+  my-person:
+    person:
+      first-name: 孙珑瑜
+#      firstName: 孙珑瑜
+      email: 112@qq.com
+      age: 30
+#      school:
+#        sname: aaa
+  favor: 篮球,足球,排球
+
+
+
+server:
+  port: 8092
+
+

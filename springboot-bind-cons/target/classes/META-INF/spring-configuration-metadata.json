@@ -6,6 +6,12 @@
       "sourceType": "cn.springboot.model.AcmeProperties"
     },
     {
+      "name": "acme",
+      "type": "cn.springboot.model.AnotherComponent",
+      "sourceType": "cn.springboot.service.MyService",
+      "sourceMethod": "getAnotherComponent()"
+    },
+    {
       "name": "acme.security",
       "type": "cn.springboot.model.AcmeProperties$Security",
       "sourceType": "cn.springboot.model.AcmeProperties"
@@ -22,22 +28,6 @@
       "name": "acme.remote-address",
       "type": "java.net.InetAddress",
       "sourceType": "cn.springboot.model.AcmeProperties"
-    },
-    {
-      "name": "acme.security.password",
-      "type": "java.lang.String",
-      "sourceType": "cn.springboot.model.AcmeProperties$Security"
-    },
-    {
-      "name": "acme.security.roles",
-      "type": "java.util.List<java.lang.String>",
-      "sourceType": "cn.springboot.model.AcmeProperties$Security",
-      "defaultValue": "USER"
-    },
-    {
-      "name": "acme.security.username",
-      "type": "java.lang.String",
-      "sourceType": "cn.springboot.model.AcmeProperties$Security"
     }
   ],
   "hints": []

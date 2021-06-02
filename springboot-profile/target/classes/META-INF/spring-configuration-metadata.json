@@ -4,11 +4,6 @@
       "name": "acme",
       "type": "cn.springboot.model.AcmeProperties",
       "sourceType": "cn.springboot.model.AcmeProperties"
-    },
-    {
-      "name": "acme.security",
-      "type": "cn.springboot.model.AcmeProperties$Security",
-      "sourceType": "cn.springboot.model.AcmeProperties"
     }
   ],
   "properties": [
@@ -17,6 +12,11 @@
       "type": "java.lang.Boolean",
       "sourceType": "cn.springboot.model.AcmeProperties",
       "defaultValue": false
+    },
+    {
+      "name": "acme.host",
+      "type": "java.lang.String",
+      "sourceType": "cn.springboot.model.AcmeProperties"
     },
     {
       "name": "acme.remote-address",
