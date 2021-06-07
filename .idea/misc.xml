@@ -9,6 +9,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/service-common/pom.xml" />
+        <option value="$PROJECT_DIR$/service-common1/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-validated/pom.xml" />
       </set>
     </option>

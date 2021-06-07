@@ -16,6 +16,8 @@
         <module>springboot-new</module>
         <module>springboot-validated1</module>
         <module>springboot-profile</module>
+        <module>java_spi</module>
+        <module>service-common1</module>
     </modules>
     <packaging>pom</packaging>
 

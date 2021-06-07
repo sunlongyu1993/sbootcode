@@ -1,5 +1,7 @@
 acme:
   enabled: true
   remote-address: 192.168.0.109
+#  host: 192.168.0.109:8080
+  host: ${acme.remote-address}:8080
 
 
