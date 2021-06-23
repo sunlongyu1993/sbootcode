@@ -7,20 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-profile" />
         <module name="service-common0603" />
         <module name="springboot-yaml" />
+        <module name="springboot-autodatasource-Druid" />
         <module name="ali-pay" />
+        <module name="springboot-autodatasource" />
         <module name="main-test" />
         <module name="service-common" />
+        <module name="springboot-mybatis-anno" />
         <module name="springboot-firstdemo" />
         <module name="springboot-bind-cons" />
         <module name="springboot-config" />
         <module name="springboot-new" />
+        <module name="service-common1" />
         <module name="wx-pay" />
         <module name="springboot-validated1" />
         <module name="springboot-bind-prop" />
-        <module name="service-common1" />
+        <module name="springboot-profile" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,12 +41,15 @@
       <module name="service-common" options="-parameters" />
       <module name="service-common0603" options="-parameters" />
       <module name="service-common1" options="-parameters" />
+      <module name="springboot-autodatasource" options="-parameters" />
+      <module name="springboot-autodatasource-Druid" options="-parameters" />
       <module name="springboot-bind-cons" options="-parameters" />
       <module name="springboot-bind-cons (1)" options="-parameters" />
       <module name="springboot-bind-prop" options="-parameters" />
       <module name="springboot-bind-prop (1)" options="-parameters" />
       <module name="springboot-config" options="-parameters" />
       <module name="springboot-firstdemo" options="-parameters" />
+      <module name="springboot-mybatis-anno" options="-parameters" />
       <module name="springboot-new" options="-parameters" />
       <module name="springboot-profile" options="-parameters" />
       <module name="springboot-validated1" options="-parameters" />

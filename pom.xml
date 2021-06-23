@@ -17,7 +17,9 @@
         <module>springboot-validated1</module>
         <module>springboot-profile</module>
         <module>java_spi</module>
-        <module>service-common1</module>
+        <module>springboot-autodatasource</module>
+        <module>springboot-autodatasource-Druid</module>
+        <module>springboot-mybatis-anno</module>
     </modules>
     <packaging>pom</packaging>
 

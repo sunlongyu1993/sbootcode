@@ -4,6 +4,7 @@ import cn.springboot.model.AcmeProperties;
 import cn.springboot.model.AnotherComponent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,10 +15,15 @@ import org.springframework.web.bind.annotation.RestController;
  *
  */
 @RestController
+//@Component
 @EnableConfigurationProperties(AcmeProperties.class)
 public class BindConsController {
-    @Autowired
+//    @Autowired
     private AnotherComponent anotherComponent;
+
+    public BindConsController(AnotherComponent anotherComponent) {
+        this.anotherComponent = anotherComponent;
+    }
 
     @RequestMapping("another")
     public String another(){

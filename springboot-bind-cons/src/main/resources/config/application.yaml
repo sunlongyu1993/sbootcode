@@ -8,6 +8,6 @@ acme:
     roles: [男主角,摄影师,女主角]
 
 server:
-  port: 8090
+  port: 8095
 
 
