@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-mybatis-spring-src" />
         <module name="service-common0603" />
         <module name="springboot-yaml" />
         <module name="springboot-autodatasource-Druid" />
         <module name="ali-pay" />
         <module name="springboot-autodatasource" />
+        <module name="springboot-mybatis-config" />
         <module name="main-test" />
         <module name="service-common" />
         <module name="springboot-mybatis-anno" />
@@ -50,6 +52,8 @@
       <module name="springboot-config" options="-parameters" />
       <module name="springboot-firstdemo" options="-parameters" />
       <module name="springboot-mybatis-anno" options="-parameters" />
+      <module name="springboot-mybatis-config" options="-parameters" />
+      <module name="springboot-mybatis-spring-src" options="-parameters" />
       <module name="springboot-new" options="-parameters" />
       <module name="springboot-profile" options="-parameters" />
       <module name="springboot-validated1" options="-parameters" />

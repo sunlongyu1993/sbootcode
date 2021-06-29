@@ -27,6 +27,11 @@
       "name": "acme.my-person.person.first-name",
       "type": "java.lang.String",
       "sourceType": "cn.springboot.model.OwnerProperties"
+    },
+    {
+      "name": "acme.my-person.person.school.sname",
+      "type": "java.lang.String",
+      "sourceType": "cn.springboot.model.OwnerProperties$School"
     }
   ],
   "hints": []

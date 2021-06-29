@@ -1,0 +1,146 @@
+ERROR main com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+INFO main com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR Druid-ConnectionPool-Create-424398527 com.alibaba.druid.pool.DruidDataSource - create connection error
+java.sql.SQLException: connect error, url dbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1434)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+ERROR main com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+INFO main com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+ERROR main com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+INFO main com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited

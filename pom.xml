@@ -20,6 +20,8 @@
         <module>springboot-autodatasource</module>
         <module>springboot-autodatasource-Druid</module>
         <module>springboot-mybatis-anno</module>
+        <module>springboot-mybatis-config</module>
+        <module>springboot-mybatis-spring-src</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -46,6 +48,11 @@
             <version>1.16.20</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.14.1</version>
+        </dependency>
 
     </dependencies>
 

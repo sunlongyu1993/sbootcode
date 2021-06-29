@@ -1,0 +1,37 @@
+#数据源的配置
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    filters: stat,wall,log4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+#mybatis的配置
+mybatis:
+#  config-location: classpath:sqlMapConfig.xml 不能和configuration同时存在
+  #  当前mapper下的所有xml文件都作为映射文件
+  mapper-locations: classpath:mapper/*.xml
+#  驼峰模式和数据库中下划线映射的规范
+  configuration:
+    map-underscore-to-camel-case: true
+#    指定别名-设置别名
+  type-aliases-package: cn.springboot.module
+server:
+  port: 8088
+  servlet:
+    context-path: /tx
