@@ -22,6 +22,7 @@
         <module>springboot-mybatis-anno</module>
         <module>springboot-mybatis-config</module>
         <module>springboot-mybatis-spring-src</module>
+        <module>springboot-company-system</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -37,6 +38,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
